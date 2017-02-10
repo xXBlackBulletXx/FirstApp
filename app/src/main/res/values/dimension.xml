@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_marginTop">14dp</dimen>
+    <dimen name="card_marginBottom">14dp</dimen>
+    <dimen name="card_marginRight">16dp</dimen>
+    <dimen name="card_marginLeft">16dp</dimen>
+    <dimen name="button_marginRight">12dp</dimen>
+    <dimen name="button_marginBottom">8dp</dimen>
+</resources>

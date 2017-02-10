@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundApp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/backgroundApp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/card_marginLeft"
+                android:layout_marginRight="@dimen/card_marginRight"
+                android:layout_marginBottom="@dimen/card_marginBottom"
+                android:layout_marginTop="@dimen/card_marginTop"
+                android:background="@color/white">
+
+                <TextView
+                    android:text="Titolo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="32dp"
+                    android:background="@color/colorPrimary"
+                    android:textColor="#fff"
+                    android:padding="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/colorPrimary"
+                    android:textColor="#fff"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:text="Subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:textColor="@color/white"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textSize="18dp"/>
+
+                    <TextView
+                        android:text="GG/MM/YYYY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:textColor="@color/white"
+                        android:layout_weight="0"
+                        android:padding="5dp"
+                        android:textSize="18dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel pellentesque orci, a ornare risus. Morbi tincidunt augue quis feugiat scelerisque. Duis porttitor tellus quis neque accumsan varius. Cras a justo leo. Etiam facilisis, sapien eget ultrices ornare, enim velit dignissim risus, sed sagittis purus magna et ipsum. Proin ultricies."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="Leggi"
+                    android:layout_marginBottom="@dimen/button_marginBottom"
+                    android:layout_marginRight="@dimen/button_marginRight"
+                    android:background="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/card_marginLeft"
+                android:layout_marginRight="@dimen/card_marginRight"
+                android:layout_marginBottom="@dimen/card_marginBottom"
+                android:layout_marginTop="@dimen/card_marginTop"
+                android:background="@color/white">
+
+                <TextView
+                    android:text="Titolo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="32dp"
+                    android:background="@color/colorPrimary"
+                    android:textColor="#fff"
+                    android:padding="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/colorPrimary"
+                    android:textColor="#fff"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:text="Subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:textColor="@color/white"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textSize="18dp"/>
+
+                    <TextView
+                        android:text="GG/MM/YYYY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:textColor="@color/white"
+                        android:layout_weight="0"
+                        android:padding="5dp"
+                        android:textSize="18dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel pellentesque orci, a ornare risus. Morbi tincidunt augue quis feugiat scelerisque. Duis porttitor tellus quis neque accumsan varius. Cras a justo leo. Etiam facilisis, sapien eget ultrices ornare, enim velit dignissim risus, sed sagittis purus magna et ipsum. Proin ultricies."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="Leggi"
+                    android:layout_marginBottom="@dimen/button_marginBottom"
+                    android:layout_marginRight="@dimen/button_marginRight"
+                    android:background="@color/white"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
